@@ -1,0 +1,71 @@
+<div class= "container-home" >
+
+  <div class="title">
+    <span class = "span">TRIKI</span>  
+  </div>
+   
+ 
+    
+  <table align="center" border="1">
+      <tr>
+        <td width="100" height="100">
+            <div [ngClass]=" getState(0)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(0)">
+                <img src="assets/{{getImg(0)}}">
+
+            </div>
+        </td>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(1)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(1)">
+               <img src="assets/{{getImg(1)}}">
+
+            </div>
+        </td>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(2)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(2)">
+               <img src="assets/{{getImg(2)}}">
+
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(3)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(3)">
+               <img src="assets/{{getImg(3)}}">
+
+            </div>
+        </td>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(4)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(4)">
+               <img src="assets/{{getImg(4)}}">
+
+            </div>
+        </td>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(5)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(5)">
+               <img src="assets/{{getImg(5)}}">
+
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(6)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(6)">
+               <img src="assets/{{getImg(6)}}">
+
+            </div>
+        </td>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(7)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(7)">
+               <img src="assets/{{getImg(7)}}">
+
+            </div>
+        </td>
+        <td width="100" height="100">
+             <div [ngClass]=" getState(8)===false   ? 'containerImg' : 'containerImg disable'" (click)="clickItem(8)">
+               <img src="assets/{{getImg(8)}}">
+
+            </div>
+        </td>
+      </tr>
+    </table>
+  </div>
